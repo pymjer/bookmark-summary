@@ -22,5 +22,11 @@
     "title": "剑桥词典：英语-中文(简体)翻译",
     "url": "https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/",
     "timestamp": 1729242058
+  },
+  {
+    "month": "202410",
+    "title": "蚂蚁金服开源 SOFAJRaft 详解",
+    "url": "https://www.sofastack.tech/blog/sofa-jraft-deep-dive/",
+    "timestamp": 1729259449
   }
 ]
