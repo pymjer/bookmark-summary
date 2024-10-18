@@ -11,7 +11,8 @@ import time
 from functools import wraps
 from urllib.parse import quote
 from waybackpy import WaybackMachineSaveAPI
-
+from openai import OpenAI
+ 
 # -- configurations begin --
 BOOKMARK_COLLECTION_REPO_NAME: str = "bookmark-collection"
 BOOKMARK_SUMMARY_REPO_NAME: str = "bookmark-summary"
@@ -34,6 +35,34 @@ def log_execution_time(func):
         logging.info(f'Exiting {func.__name__} - Elapsed time: {elapsed_time:.4f} seconds')
         return result
     return wrapper
+
+
+def load_env_file(file_name):
+    """读取 .env 文件并设置环境变量"""
+    # 获取当前脚本所在的目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, file_name)
+
+    if not os.path.exists(file_path):
+        print(f"文件不存在: {file_path}")
+        return
+
+    with open(file_path) as f:
+        for line in f:
+            if line.strip() == "" or line.startswith("#"):
+                continue
+
+            key, value = map(str.strip, line.split("=", 1))
+            value = value.strip('"').strip("'")
+            os.environ[key] = value
+            print(f"设置环境变量: {key}={value}")
+
+env_file_path = ".local.env"
+load_env_file(env_file_path)
+# 检查是否成功设置
+print("OPENAI_API_ENDPOINT:", os.getenv("OPENAI_API_ENDPOINT"))
+print("OPENAI_API_MODEL:", os.getenv("OPENAI_API_MODEL"))
+print("OPENAI_API_KEY:", os.getenv("OPENAI_API_KEY"))
 
 @dataclass
 class SummarizedBookmark:
@@ -69,21 +98,21 @@ def get_text_content(url: str) -> str:
 
 @log_execution_time
 def call_openai_api(prompt: str, content: str) -> str:
-    model: str = os.environ.get('OPENAI_API_MODEL', 'gpt-4o-mini')
-    headers: dict = {
-        "Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}",
-        "Content-Type": "application/json"
-    }
-    data: dict = {
-        "model": model,
-        "messages": [
+    client = OpenAI(
+        api_key=os.getenv('OPENAI_API_KEY'),
+        base_url=os.getenv('OPENAI_API_ENDPOINT'),
+    )
+    
+    completion = client.chat.completions.create(
+        model=os.getenv('OPENAI_API_MODEL'),
+        messages=[
             {"role": "system", "content": prompt},
             {"role": "user", "content": content}
-        ]
-    }
-    api_endpoint: str = os.environ.get('OPENAI_API_ENDPOINT', 'https://api.openai.com/v1/chat/completions')
-    response: requests.Response = requests.post(api_endpoint, headers=headers, data=json.dumps(data))
-    return response.json()['choices'][0]['message']['content']
+        ],
+        temperature=0.3,
+    )
+
+    return completion.choices[0].message.content
 
 @log_execution_time
 def summarize_text(text: str) -> str:
