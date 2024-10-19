@@ -34,5 +34,11 @@
     "title": "GH Archive",
     "url": "https://www.gharchive.org/",
     "timestamp": 1729298189
+  },
+  {
+    "month": "202410",
+    "title": "Flink窗口函数",
+    "url": "https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/docs/dev/table/sql/queries/window-tvf/",
+    "timestamp": 1729307295
   }
 ]
