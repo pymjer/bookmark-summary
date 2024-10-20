@@ -40,5 +40,11 @@
     "title": "Flink窗口函数",
     "url": "https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/docs/dev/table/sql/queries/window-tvf/",
     "timestamp": 1729307295
+  },
+  {
+    "month": "202410",
+    "title": "Arthas",
+    "url": "https://arthas.aliyun.com/doc/install-detail.html",
+    "timestamp": 1729384005
   }
 ]
