@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-10-29) [分布式一致性 Raft 与 JRaft · SOFAStack](202410/2024-10-29-%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7-raft-%E4%B8%8E-jraft-%C2%B7-sofastack.md)
 - (2024-10-20) [Arthas](202410/2024-10-20-arthas.md)
 - (2024-10-19) [Flink窗口函数](202410/2024-10-19-flink%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0.md)
 - (2024-10-19) [GH Archive](202410/2024-10-19-gh-archive.md)
