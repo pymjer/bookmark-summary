@@ -52,5 +52,11 @@
     "title": "分布式一致性 Raft 与 JRaft · SOFAStack",
     "url": "https://www.sofastack.tech/projects/sofa-jraft/consistency-raft-jraft/",
     "timestamp": 1730182311
+  },
+  {
+    "month": "202410",
+    "title": "基于Flink搭建流式湖仓OpenLake方案",
+    "url": "https://help.aliyun.com/zh/flink/",
+    "timestamp": 1730194670
   }
 ]
