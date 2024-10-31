@@ -58,5 +58,11 @@
     "title": "基于Flink搭建流式湖仓OpenLake方案",
     "url": "https://help.aliyun.com/zh/flink/",
     "timestamp": 1730194670
+  },
+  {
+    "month": "202410",
+    "title": "TiCDC 简介",
+    "url": "https://docs.pingcap.com/zh/tidb/stable/ticdc-overview",
+    "timestamp": 1730340784
   }
 ]
