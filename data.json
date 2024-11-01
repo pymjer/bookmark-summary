@@ -64,5 +64,11 @@
     "title": "TiCDC 简介",
     "url": "https://docs.pingcap.com/zh/tidb/stable/ticdc-overview",
     "timestamp": 1730340784
+  },
+  {
+    "month": "202411",
+    "title": "gRPC教程",
+    "url": "https://juejin.cn/post/7191008929986379836",
+    "timestamp": 1730467587
   }
 ]
