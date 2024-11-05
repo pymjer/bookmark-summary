@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-11-05) [从JRaft来看Raft协议实现细节](202411/2024-11-05-%E4%BB%8Ejraft%E6%9D%A5%E7%9C%8Braft%E5%8D%8F%E8%AE%AE%E5%AE%9E%E7%8E%B0%E7%BB%86%E8%8A%82.md)
 - (2024-11-01) [gRPC教程](202411/2024-11-01-grpc%E6%95%99%E7%A8%8B.md)
 - (2024-10-31) [TiCDC 简介](202410/2024-10-31-ticdc-%E7%AE%80%E4%BB%8B.md)
 - (2024-10-29) [基于Flink搭建流式湖仓OpenLake方案](202410/2024-10-29-%E5%9F%BA%E4%BA%8Eflink%E6%90%AD%E5%BB%BA%E6%B5%81%E5%BC%8F%E6%B9%96%E4%BB%93openlake%E6%96%B9%E6%A1%88.md)

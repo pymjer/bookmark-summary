@@ -70,5 +70,11 @@
     "title": "gRPC教程",
     "url": "https://juejin.cn/post/7191008929986379836",
     "timestamp": 1730467587
+  },
+  {
+    "month": "202411",
+    "title": "从JRaft来看Raft协议实现细节",
+    "url": "https://www.cnblogs.com/luozhiyun/p/13150808.html",
+    "timestamp": 1730767099
   }
 ]
