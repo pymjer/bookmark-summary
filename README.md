@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-11-11) [如何构建你的第一个 Python 包](202411/2024-11-11-%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA-python-%E5%8C%85.md)
 - (2024-11-11) [fastai/nbdev](202411/2024-11-11-fastai-nbdev.md)
 - (2024-11-08) [Convert Markdown Table to Excel Online](202411/2024-11-08-convert-markdown-table-to-excel-online.md)
 - (2024-11-05) [从JRaft来看Raft协议实现细节](202411/2024-11-05-%E4%BB%8Ejraft%E6%9D%A5%E7%9C%8Braft%E5%8D%8F%E8%AE%AE%E5%AE%9E%E7%8E%B0%E7%BB%86%E8%8A%82.md)
