@@ -94,5 +94,11 @@
     "title": "如何构建你的第一个 Python 包",
     "url": "https://www.freecodecamp.org/chinese/news/build-your-first-python-package/",
     "timestamp": 1731298213
+  },
+  {
+    "month": "202411",
+    "title": "uv: Python packaging in Rust",
+    "url": "https://astral.sh/blog/uv",
+    "timestamp": 1731374242
   }
 ]
