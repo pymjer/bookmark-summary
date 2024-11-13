@@ -112,5 +112,11 @@
     "title": "Embeddings are underrated",
     "url": "https://technicalwriting.dev/data/embeddings.html",
     "timestamp": 1731458701
+  },
+  {
+    "month": "202411",
+    "title": "URL Parser - Translate a URL into an LLM-compatible input.",
+    "url": "https://www.urlparser.online/",
+    "timestamp": 1731458804
   }
 ]
