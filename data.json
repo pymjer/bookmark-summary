@@ -118,5 +118,11 @@
     "title": "URL Parser - Translate a URL into an LLM-compatible input.",
     "url": "https://www.urlparser.online/",
     "timestamp": 1731458804
+  },
+  {
+    "month": "202411",
+    "title": "DolphinScheduler 认证方式",
+    "url": "https://dolphinscheduler.apache.org/zh-cn/docs/3.2.2/guide/security/authentication-type",
+    "timestamp": 1732755058
   }
 ]

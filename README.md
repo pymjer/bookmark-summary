@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-11-28) [DolphinScheduler 认证方式](202411/2024-11-28-dolphinscheduler-%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F.md)
 - (2024-11-13) [URL Parser - Translate a URL into an LLM-compatible input.](202411/2024-11-13-url-parser---translate-a-url-into-an-llm-compatible-input..md)
 - (2024-11-13) [Embeddings are underrated](202411/2024-11-13-embeddings-are-underrated.md)
 - (2024-11-12) [Show Me！成为扣子模板创作人，50万奖金、iPhone 16 Pro Max 等你来拿！｜扣子×1024程序员节](202411/2024-11-12-show-me%EF%BC%81%E6%88%90%E4%B8%BA%E6%89%A3%E5%AD%90%E6%A8%A1%E6%9D%BF%E5%88%9B%E4%BD%9C%E4%BA%BA%EF%BC%8C50%E4%B8%87%E5%A5%96%E9%87%91%E3%80%81iphone-16-pro-max-%E7%AD%89%E4%BD%A0%E6%9D%A5%E6%8B%BF%EF%BC%81%EF%BD%9C%E6%89%A3%E5%AD%90%C3%971024%E7%A8%8B%E5%BA%8F%E5%91%98%E8%8A%82.md)
