@@ -160,5 +160,11 @@
     "title": "腾讯云 ES：一站式 RAG 方案，开启智能搜索新时代",
     "url": "https://mp.weixin.qq.com/s/jGHmg2NwJ1IfiZMc79PwHg",
     "timestamp": 1734502171
+  },
+  {
+    "month": "202412",
+    "title": "Docker Proxy Setting",
+    "url": "https://docs.docker.com/desktop/settings-and-maintenance/settings/",
+    "timestamp": 1734513013
   }
 ]

@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-18) [Docker Proxy Setting](202412/2024-12-18-docker-proxy-setting.md)
 - (2024-12-18) [腾讯云 ES：一站式 RAG 方案，开启智能搜索新时代](202412/2024-12-18-%E8%85%BE%E8%AE%AF%E4%BA%91-es%EF%BC%9A%E4%B8%80%E7%AB%99%E5%BC%8F-rag-%E6%96%B9%E6%A1%88%EF%BC%8C%E5%BC%80%E5%90%AF%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%96%B0%E6%97%B6%E4%BB%A3.md)
 - (2024-12-18) [中国信通院何宝宏：下一代数据治理](202412/2024-12-18-%E4%B8%AD%E5%9B%BD%E4%BF%A1%E9%80%9A%E9%99%A2%E4%BD%95%E5%AE%9D%E5%AE%8F%EF%BC%9A%E4%B8%8B%E4%B8%80%E4%BB%A3%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86.md)
 - (2024-12-18) [Quick Start - The Kubebuilder Book](202412/2024-12-18-quick-start---the-kubebuilder-book.md)
