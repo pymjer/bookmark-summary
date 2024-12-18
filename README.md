@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2024-12-18) [中国信通院何宝宏：下一代数据治理](202412/2024-12-18-%E4%B8%AD%E5%9B%BD%E4%BF%A1%E9%80%9A%E9%99%A2%E4%BD%95%E5%AE%9D%E5%AE%8F%EF%BC%9A%E4%B8%8B%E4%B8%80%E4%BB%A3%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86.md)
 - (2024-12-18) [Quick Start - The Kubebuilder Book](202412/2024-12-18-quick-start---the-kubebuilder-book.md)
 - (2024-12-13) [大模型在华为推荐场景中的探索和应用](202412/2024-12-13-%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%8E%A8%E8%8D%90%E5%9C%BA%E6%99%AF%E4%B8%AD%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E5%BA%94%E7%94%A8.md)
 - (2024-12-13) [华为诺亚解析：推荐系统的技术演进及大模型应用实践](202412/2024-12-13-%E5%8D%8E%E4%B8%BA%E8%AF%BA%E4%BA%9A%E8%A7%A3%E6%9E%90%EF%BC%9A%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E5%8F%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5.md)
