@@ -178,5 +178,11 @@
     "title": "接入 Xinference 部署的本地模型 | Dify",
     "url": "https://docs.dify.ai/zh-hans/development/models-integration/xinference",
     "timestamp": 1736232920
+  },
+  {
+    "month": "202501",
+    "title": "Hugging Face 介绍",
+    "url": "https://www.baihezi.com/post/990.html",
+    "timestamp": 1736304466
   }
 ]

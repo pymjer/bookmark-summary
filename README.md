@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-01-08) [Hugging Face 介绍](202501/2025-01-08-hugging-face-%E4%BB%8B%E7%BB%8D.md)
 - (2025-01-07) [接入 Xinference 部署的本地模型 | Dify](202501/2025-01-07-%E6%8E%A5%E5%85%A5-xinference-%E9%83%A8%E7%BD%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%A8%A1%E5%9E%8B-dify.md)
 - (2024-12-24) [从OpenAI 12天发布会里，我们看到了行业的四个关键问题](202412/2024-12-24-%E4%BB%8Eopenai-12%E5%A4%A9%E5%8F%91%E5%B8%83%E4%BC%9A%E9%87%8C%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9C%8B%E5%88%B0%E4%BA%86%E8%A1%8C%E4%B8%9A%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%85%B3%E9%94%AE%E9%97%AE%E9%A2%98.md)
 - (2024-12-18) [Docker Proxy Setting](202412/2024-12-18-docker-proxy-setting.md)
