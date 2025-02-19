@@ -232,5 +232,11 @@
     "title": "就是那一只蟋蟀",
     "url": "https://baike.baidu.com/item/%E5%B0%B1%E6%98%AF%E9%82%A3%E4%B8%80%E5%8F%AA%E8%9F%8B%E8%9F%80/10258960",
     "timestamp": 1739494564
+  },
+  {
+    "month": "202502",
+    "title": "Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)",
+    "url": "https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/",
+    "timestamp": 1739947926
   }
 ]
