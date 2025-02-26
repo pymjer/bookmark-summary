@@ -262,5 +262,11 @@
     "title": "aiquizzes - learn ai",
     "url": "https://aiquizzes.com/",
     "timestamp": 1740220241
+  },
+  {
+    "month": "202502",
+    "title": "信用卡欺诈检测系统",
+    "url": "https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_2_Background/FDS.html",
+    "timestamp": 1740561604
   }
 ]
