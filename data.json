@@ -268,5 +268,11 @@
     "title": "信用卡欺诈检测系统",
     "url": "https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_2_Background/FDS.html",
     "timestamp": 1740561604
+  },
+  {
+    "month": "202503",
+    "title": "无阈值指标",
+    "url": "https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_4_PerformanceMetrics/ThresholdFree.html",
+    "timestamp": 1740968509
   }
 ]
