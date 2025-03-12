@@ -286,5 +286,11 @@
     "title": "持续集成服务 Travis CI 教程",
     "url": "https://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html",
     "timestamp": 1741308113
+  },
+  {
+    "month": "202503",
+    "title": "Residual Networks (ResNet) - Deep Learning - GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/",
+    "timestamp": 1741748740
   }
 ]
