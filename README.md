@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-04-18) [管理方格理论](202504/2025-04-18-%E7%AE%A1%E7%90%86%E6%96%B9%E6%A0%BC%E7%90%86%E8%AE%BA.md)
 - (2025-04-01) [On inheritance and subtyping](202504/2025-04-01-on-inheritance-and-subtyping.md)
 - (2025-03-12) [Residual Networks (ResNet) - Deep Learning - GeeksforGeeks](202503/2025-03-12-residual-networks-%28resnet%29---deep-learning---geeksforgeeks.md)
 - (2025-03-07) [持续集成服务 Travis CI 教程](202503/2025-03-07-%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E6%9C%8D%E5%8A%A1-travis-ci-%E6%95%99%E7%A8%8B.md)
